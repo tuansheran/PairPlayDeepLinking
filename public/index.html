@@ -32,14 +32,14 @@
 </head>
 <body>
   <div class="spinner"></div>
-  <p>Opening YourApp…</p>
+  <p>Opening PairPlay</p>
 
   <script>
     const shareCode = new URLSearchParams(window.location.search).get('shareCode');
-    const androidPackage = 'com.yourapp'; // replace with your real package name
+    const androidPackage = 'sheran.pairplay'; // replace with your real package name
 
     // Attempt to open the app
-    const appUrl = `yourapp://invite?shareCode=${shareCode}`;
+    const appUrl = `sheran.pairplay://invite?shareCode=${shareCode}`;
     window.location = appUrl;
 
     // If not installed, redirect to Play Store after 1.5s
