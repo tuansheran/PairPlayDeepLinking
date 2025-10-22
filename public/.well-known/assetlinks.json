@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sheran.pairplay",
+      "sha256_cert_fingerprints": [
+        "EB:1D:EC:A5:E6:C3:0C:02:48:A4:7E:5A:9C:6F:26:84:44:2D:FD:5B:74:92:01:E7:47:93:13:5E:99:1F:DD:31"
+      ]
+    }
+  }
+]
